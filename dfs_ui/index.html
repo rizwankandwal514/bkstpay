@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DFS Operations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>DFS Operations</h1>
+
+        <!-- File Upload -->
+        <div>
+            <h2>Upload File</h2>
+            <input type="file" id="fileUpload">
+            <button onclick="uploadFile()">Upload</button>
+        </div>
+
+        <!-- Retrieve File Content -->
+        <div>
+            <h2>Retrieve File Content</h2>
+            <input type="text" id="fileName" placeholder="Enter file name">
+            <button onclick="retrieveContent()">Retrieve</button>
+            <textarea id="fileContent" placeholder="File content will appear here"></textarea>
+        </div>
+
+        <!-- Update File Content -->
+        <div>
+            <h2>Update File Content</h2>
+            <input type="text" id="updateFileName" placeholder="Enter file name">
+            <textarea id="updateFileContent" placeholder="Enter new content"></textarea>
+            <button onclick="updateContent()">Update</button>
+        </div>
+
+        <!-- Error Message -->
+        <div id="errorMessage" class="error"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

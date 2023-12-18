@@ -1,0 +1,989 @@
+2023-12-18 11:49:28 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Starting DfsApplication using Java 17.0.9 on TD-CYBYBY3 with PID 1392 (C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes started by rh255046 in C:\Users\rh255046\OneDrive - Teradata\Documents\dfs)
+2023-12-18 11:49:28 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-18 11:49:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-18 11:49:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2023-12-18 11:49:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-18 11:49:28 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-18 11:49:28 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-12-18 11:49:28 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-18 11:49:28 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 221 ms
+2023-12-18 11:49:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2023-12-18 11:49:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2023-12-18 11:49:28 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:15e054c5-a7eb-42ca-92fd-e4301bcffb9c'
+2023-12-18 11:49:28 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-18 11:49:28 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-18 11:49:28 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-18 11:49:28 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:49:28 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-18 11:49:28 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 51348614-90e6-4923-9f8f-9caaa9febe2e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-18 11:49:28 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1ab03145, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3be3885e, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e604000, org.springframework.security.web.header.HeaderWriterFilter@1d52f1, org.springframework.web.filter.CorsFilter@4821c6ba, org.springframework.security.web.authentication.logout.LogoutFilter@35ec59cb, com.bsktpay.dfs.config.ApiSecurityConfig$ApiKeyFilter@4b177d09, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1458cf90, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e389d30, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50364737, org.springframework.security.web.session.SessionManagementFilter@5895ed5f, org.springframework.security.web.access.ExceptionTranslationFilter@f44aac6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@478887b0]
+2023-12-18 11:49:28 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-12-18 11:49:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-18 11:49:28 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Started DfsApplication in 0.506 seconds (JVM running for 586.951)
+2023-12-18 11:49:28 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-12-18 11:49:30 [Thread-12] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:49:31 [Thread-12] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-212]
+2023-12-18 11:49:31 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2023-12-18 11:49:31 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2023-12-18 11:49:31 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Starting DfsApplication using Java 17.0.9 on TD-CYBYBY3 with PID 1392 (C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes started by rh255046 in C:\Users\rh255046\OneDrive - Teradata\Documents\dfs)
+2023-12-18 11:49:31 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-18 11:49:31 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-18 11:49:31 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2023-12-18 11:49:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-18 11:49:31 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-18 11:49:31 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-12-18 11:49:31 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-18 11:49:31 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 194 ms
+2023-12-18 11:49:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2023-12-18 11:49:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2023-12-18 11:49:31 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:68c05267-1df7-448d-95b9-062a843fbfc0'
+2023-12-18 11:49:31 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-18 11:49:31 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-18 11:49:31 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-18 11:49:31 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:49:31 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-18 11:49:31 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 9297009b-6d5f-48fb-a047-6e7e02b7c58b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-18 11:49:31 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6e30a7a8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77027631, org.springframework.security.web.context.SecurityContextPersistenceFilter@496ee389, org.springframework.security.web.header.HeaderWriterFilter@1bf1cd4a, org.springframework.web.filter.CorsFilter@37703c08, org.springframework.security.web.authentication.logout.LogoutFilter@57b6cdbf, com.bsktpay.dfs.config.ApiSecurityConfig$ApiKeyFilter@4d5ef606, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@272d4f39, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32a35d0b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@26b815e2, org.springframework.security.web.session.SessionManagementFilter@66c7b8bd, org.springframework.security.web.access.ExceptionTranslationFilter@3adb005, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40975878]
+2023-12-18 11:49:31 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-12-18 11:49:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-18 11:49:31 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Started DfsApplication in 0.419 seconds (JVM running for 590.083)
+2023-12-18 11:49:31 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-12-18 11:52:51 [main] INFO  c.b.dfs.contoller.DfsControllerTest - Starting DfsControllerTest using Java 17.0.9 on TD-CYBYBY3 with PID 26324 (started by rh255046 in C:\Users\rh255046\OneDrive - Teradata\Documents\dfs)
+2023-12-18 11:52:51 [main] INFO  c.b.dfs.contoller.DfsControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-12-18 11:52:52 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 9352fe5e-6cab-446c-9f37-caefda5f22a6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-18 11:52:52 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5c82031b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@274fdea6, org.springframework.security.web.context.SecurityContextPersistenceFilter@2d22d3b1, org.springframework.security.web.header.HeaderWriterFilter@149aa7b2, org.springframework.web.filter.CorsFilter@74c121d4, org.springframework.security.web.authentication.logout.LogoutFilter@649b5891, com.bsktpay.dfs.config.ApiSecurityConfig$ApiKeyFilter@2a484710, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42cf6349, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47fb7ec9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@661e1399, org.springframework.security.web.session.SessionManagementFilter@7ea71fc2, org.springframework.security.web.access.ExceptionTranslationFilter@2bf2d6eb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4e17442f]
+2023-12-18 11:52:53 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-12-18 11:52:53 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-12-18 11:52:53 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2023-12-18 11:52:53 [main] INFO  c.b.dfs.contoller.DfsControllerTest - Started DfsControllerTest in 2.447 seconds (JVM running for 3.656)
+2023-12-18 11:52:53 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bsktpay.dfs.DfsApplicationTests], using SpringBootContextLoader
+2023-12-18 11:52:53 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.bsktpay.dfs.DfsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-12-18 11:52:53 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bsktpay.dfs.DfsApplicationTests]: DfsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-18 11:52:53 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bsktpay.dfs.DfsApplication for test class com.bsktpay.dfs.DfsApplicationTests
+2023-12-18 11:52:53 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-12-18 11:52:53 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@68df8c6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7c206b14, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2b8cf049, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2336cd91, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4a944af9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3593e074, org.springframework.test.context.transaction.TransactionalTestExecutionListener@79d14037, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6c1e40d9, org.springframework.test.context.event.EventPublishingTestExecutionListener@4b50c21, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2e0fdc83, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5dacf18d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@432a6a69, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6f52a229, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3fe98084, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5f33e6d]
+2023-12-18 11:52:53 [main] INFO  com.bsktpay.dfs.DfsApplicationTests - Starting DfsApplicationTests using Java 17.0.9 on TD-CYBYBY3 with PID 26324 (started by rh255046 in C:\Users\rh255046\OneDrive - Teradata\Documents\dfs)
+2023-12-18 11:52:53 [main] INFO  com.bsktpay.dfs.DfsApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-12-18 11:52:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-18 11:52:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2023-12-18 11:52:54 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-18 11:52:54 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-18 11:52:54 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-18 11:52:54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-12-18 11:52:54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-12-18 11:52:54 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-18 11:52:55 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-18 11:52:55 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:52:55 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-18 11:52:56 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 9f8970b7-5d75-4e24-92df-d78aedff87a4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-18 11:52:56 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7cd2d3b6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f922523, org.springframework.security.web.context.SecurityContextPersistenceFilter@507e3e77, org.springframework.security.web.header.HeaderWriterFilter@516370c1, org.springframework.web.filter.CorsFilter@1509bd56, org.springframework.security.web.authentication.logout.LogoutFilter@e98004e, com.bsktpay.dfs.config.ApiSecurityConfig$ApiKeyFilter@2c4eda3a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73796ae5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3956e933, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@466bf366, org.springframework.security.web.session.SessionManagementFilter@27563444, org.springframework.security.web.access.ExceptionTranslationFilter@1db7c267, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3c20abd6]
+2023-12-18 11:52:56 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:7b00fd55-6f60-4efe-96cc-5c2e063b453d'
+2023-12-18 11:52:56 [main] INFO  com.bsktpay.dfs.DfsApplicationTests - Started DfsApplicationTests in 3.354 seconds (JVM running for 7.269)
+2023-12-18 11:52:56 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:52:56 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-12-18 11:52:56 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-12-18 11:53:36 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Starting DfsApplication using Java 17.0.9 on TD-CYBYBY3 with PID 23880 (C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes started by rh255046 in C:\Users\rh255046\OneDrive - Teradata\Documents\dfs)
+2023-12-18 11:53:36 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-18 11:53:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-18 11:53:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-18 11:53:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-18 11:53:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2023-12-18 11:53:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-18 11:53:38 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-18 11:53:38 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-18 11:53:38 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-12-18 11:53:38 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-18 11:53:38 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1945 ms
+2023-12-18 11:53:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-12-18 11:53:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-12-18 11:53:38 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:c064be99-a8b4-4e28-b67b-ec5af741fa59'
+2023-12-18 11:53:39 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-18 11:53:39 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-18 11:53:39 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-18 11:53:39 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-18 11:53:40 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-18 11:53:40 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:53:40 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-18 11:53:40 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 28a7d4e8-b02c-4f68-9061-da3139b5b9bb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-18 11:53:41 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5469d4cd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b6f46fd, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e3d1646, org.springframework.security.web.header.HeaderWriterFilter@58279419, org.springframework.web.filter.CorsFilter@6f37947f, org.springframework.security.web.authentication.logout.LogoutFilter@2e029831, com.bsktpay.dfs.config.ApiSecurityConfig$ApiKeyFilter@61098163, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71371901, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@594a7174, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b5cee33, org.springframework.security.web.session.SessionManagementFilter@2d979020, org.springframework.security.web.access.ExceptionTranslationFilter@26149335, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3098149a]
+2023-12-18 11:53:41 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-12-18 11:53:41 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-18 11:53:41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-18 11:53:41 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Started DfsApplication in 5.789 seconds (JVM running for 6.333)
+2023-12-18 11:54:59 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:54:59 [Thread-5] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-212]
+2023-12-18 11:54:59 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-12-18 11:54:59 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-12-18 11:55:00 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Starting DfsApplication using Java 17.0.9 on TD-CYBYBY3 with PID 23880 (C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes started by rh255046 in C:\Users\rh255046\OneDrive - Teradata\Documents\dfs)
+2023-12-18 11:55:00 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-18 11:55:00 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-18 11:55:00 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2023-12-18 11:55:00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-18 11:55:00 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-18 11:55:00 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-18 11:55:00 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-12-18 11:55:00 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-18 11:55:00 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 298 ms
+2023-12-18 11:55:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2023-12-18 11:55:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2023-12-18 11:55:00 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:b14343d0-52d8-45c2-a701-bfd30414ee40'
+2023-12-18 11:55:00 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-18 11:55:00 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-18 11:55:00 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-18 11:55:00 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:55:00 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-18 11:55:00 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dfsController' defined in file [C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes\com\bsktpay\dfs\controller\DfsController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bsktpay.dfs.controller.DfsController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	YourComponent cannot be resolved to a type
+
+2023-12-18 11:55:00 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:55:00 [restartedMain] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-212]
+2023-12-18 11:55:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2023-12-18 11:55:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2023-12-18 11:55:00 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-12-18 11:55:00 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-18 11:55:00 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dfsController' defined in file [C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes\com\bsktpay\dfs\controller\DfsController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bsktpay.dfs.controller.DfsController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	YourComponent cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.bsktpay.dfs.DfsApplication.main(DfsApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bsktpay.dfs.controller.DfsController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	YourComponent cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	YourComponent cannot be resolved to a type
+
+	at com.bsktpay.dfs.controller.DfsController.<init>(DfsController.java:19)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 24 common frames omitted
+2023-12-18 11:55:46 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Starting DfsApplication using Java 17.0.9 on TD-CYBYBY3 with PID 23880 (C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes started by rh255046 in C:\Users\rh255046\OneDrive - Teradata\Documents\dfs)
+2023-12-18 11:55:46 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-18 11:55:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-18 11:55:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2023-12-18 11:55:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-18 11:55:47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-18 11:55:47 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-18 11:55:47 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-12-18 11:55:47 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-18 11:55:47 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 228 ms
+2023-12-18 11:55:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2023-12-18 11:55:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2023-12-18 11:55:47 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:4036fa94-8ecd-4e6a-826b-1ca63d45b7db'
+2023-12-18 11:55:47 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-18 11:55:47 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-18 11:55:47 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-18 11:55:47 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:55:47 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-18 11:55:47 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dfsController' defined in file [C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes\com\bsktpay\dfs\controller\DfsController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bsktpay.dfs.controller.DfsController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	YourComponent cannot be resolved to a type
+
+2023-12-18 11:55:47 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:55:47 [restartedMain] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-212]
+2023-12-18 11:55:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2023-12-18 11:55:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2023-12-18 11:55:47 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-12-18 11:55:47 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-18 11:55:47 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dfsController' defined in file [C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes\com\bsktpay\dfs\controller\DfsController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bsktpay.dfs.controller.DfsController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	YourComponent cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.bsktpay.dfs.DfsApplication.main(DfsApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bsktpay.dfs.controller.DfsController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	YourComponent cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	YourComponent cannot be resolved to a type
+
+	at com.bsktpay.dfs.controller.DfsController.<init>(DfsController.java:22)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 24 common frames omitted
+2023-12-18 11:55:52 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Starting DfsApplication using Java 17.0.9 on TD-CYBYBY3 with PID 23880 (C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes started by rh255046 in C:\Users\rh255046\OneDrive - Teradata\Documents\dfs)
+2023-12-18 11:55:52 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-18 11:55:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-18 11:55:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2023-12-18 11:55:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-18 11:55:52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-18 11:55:52 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-18 11:55:52 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-12-18 11:55:52 [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-18 11:55:52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 259 ms
+2023-12-18 11:55:52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2023-12-18 11:55:52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2023-12-18 11:55:52 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:7444a16e-3653-40de-a867-04e5e4da0584'
+2023-12-18 11:55:52 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-18 11:55:52 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-18 11:55:52 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-18 11:55:52 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:55:52 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-18 11:55:52 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: cc9ccb74-1169-481c-9ae4-59145dc70fc1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-18 11:55:52 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@750be0c7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5777be5a, org.springframework.security.web.context.SecurityContextPersistenceFilter@52bc8ea1, org.springframework.security.web.header.HeaderWriterFilter@7c56536a, org.springframework.web.filter.CorsFilter@85c6ea0, org.springframework.security.web.authentication.logout.LogoutFilter@38f7668f, com.bsktpay.dfs.config.ApiSecurityConfig$ApiKeyFilter@30fb75ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@bdc2617, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@455fe905, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1a5ca6ed, org.springframework.security.web.session.SessionManagementFilter@49305582, org.springframework.security.web.access.ExceptionTranslationFilter@6b665bea, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14758d53]
+2023-12-18 11:55:52 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-12-18 11:55:52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-18 11:55:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-18 11:55:52 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Started DfsApplication in 0.55 seconds (JVM running for 137.122)
+2023-12-18 11:55:52 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-12-18 11:56:23 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:56:23 [Thread-7] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-212]
+2023-12-18 11:56:23 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2023-12-18 11:56:23 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2023-12-18 11:56:23 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Starting DfsApplication using Java 17.0.9 on TD-CYBYBY3 with PID 23880 (C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes started by rh255046 in C:\Users\rh255046\OneDrive - Teradata\Documents\dfs)
+2023-12-18 11:56:23 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-18 11:56:24 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-18 11:56:24 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interfaces.
+2023-12-18 11:56:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-18 11:56:24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-18 11:56:24 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-18 11:56:24 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-12-18 11:56:24 [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-18 11:56:24 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 304 ms
+2023-12-18 11:56:24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2023-12-18 11:56:24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2023-12-18 11:56:24 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:5d1ccfd1-792d-4dd7-9bac-16e8412d816a'
+2023-12-18 11:56:24 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-18 11:56:24 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-18 11:56:24 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-18 11:56:24 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:56:24 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-18 11:56:24 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b069e81a-3e42-496e-83b4-8a850ae5bab6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-18 11:56:24 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3cc438d9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b50f81b, org.springframework.security.web.context.SecurityContextPersistenceFilter@39559cd4, org.springframework.security.web.header.HeaderWriterFilter@7edec97c, org.springframework.web.filter.CorsFilter@75bf2d68, org.springframework.security.web.authentication.logout.LogoutFilter@25aabd63, com.bsktpay.dfs.config.ApiSecurityConfig$ApiKeyFilter@236a02b9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c964a79, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@148bf5be, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e75e4fd, org.springframework.security.web.session.SessionManagementFilter@ee548c5, org.springframework.security.web.access.ExceptionTranslationFilter@585fa720, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7e1512d4]
+2023-12-18 11:56:24 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-12-18 11:56:24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-18 11:56:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-18 11:56:24 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Started DfsApplication in 0.712 seconds (JVM running for 169.1)
+2023-12-18 11:56:24 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-12-18 11:56:34 [Thread-18] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:56:34 [Thread-18] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-212]
+2023-12-18 11:56:34 [Thread-18] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2023-12-18 11:56:34 [Thread-18] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2023-12-18 11:56:34 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Starting DfsApplication using Java 17.0.9 on TD-CYBYBY3 with PID 23880 (C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes started by rh255046 in C:\Users\rh255046\OneDrive - Teradata\Documents\dfs)
+2023-12-18 11:56:34 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-18 11:56:34 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-18 11:56:34 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2023-12-18 11:56:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-18 11:56:34 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-18 11:56:34 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-18 11:56:34 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-12-18 11:56:34 [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-18 11:56:34 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 215 ms
+2023-12-18 11:56:34 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2023-12-18 11:56:34 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2023-12-18 11:56:34 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:a02c1228-eed4-443f-bb8b-38e8329dc822'
+2023-12-18 11:56:34 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-18 11:56:34 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-18 11:56:34 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-18 11:56:34 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:56:34 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-18 11:56:34 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: de2842c3-09fd-4a6b-aae4-bee4e133b6da
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-18 11:56:34 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6df8207, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3470c265, org.springframework.security.web.context.SecurityContextPersistenceFilter@a63bf1a, org.springframework.security.web.header.HeaderWriterFilter@7dad0762, org.springframework.web.filter.CorsFilter@353042c9, org.springframework.security.web.authentication.logout.LogoutFilter@4f2cb33a, com.bsktpay.dfs.config.ApiSecurityConfig$ApiKeyFilter@3f778098, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f4c1467, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a4f8afb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4542f2cb, org.springframework.security.web.session.SessionManagementFilter@45aefe6f, org.springframework.security.web.access.ExceptionTranslationFilter@36187841, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@198269ee]
+2023-12-18 11:56:41 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Starting DfsApplication using Java 17.0.9 on TD-CYBYBY3 with PID 19120 (C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes started by rh255046 in C:\Users\rh255046\OneDrive - Teradata\Documents\dfs)
+2023-12-18 11:56:41 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-18 11:56:41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-18 11:56:41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-18 11:56:42 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-18 11:56:42 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2023-12-18 11:56:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-18 11:56:43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-18 11:56:43 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-18 11:56:43 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-12-18 11:56:43 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-18 11:56:43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1831 ms
+2023-12-18 11:56:43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-12-18 11:56:43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-12-18 11:56:43 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:2fde8105-3b5c-4692-a1b1-7bca77dd57c2'
+2023-12-18 11:56:44 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-18 11:56:44 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-18 11:56:44 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-18 11:56:44 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-18 11:56:45 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-18 11:56:45 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:56:45 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-18 11:56:45 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 98414302-ac22-4311-a20b-3de0fb40d88b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-18 11:56:45 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6b2c0c2a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b60f911, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e521f12, org.springframework.security.web.header.HeaderWriterFilter@619f4249, org.springframework.web.filter.CorsFilter@100f6f7e, org.springframework.security.web.authentication.logout.LogoutFilter@2d35ecd6, com.bsktpay.dfs.config.ApiSecurityConfig$ApiKeyFilter@2884e1bc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5406f37, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f3a9731, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23c2e5da, org.springframework.security.web.session.SessionManagementFilter@1e31d73, org.springframework.security.web.access.ExceptionTranslationFilter@3d799331, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@494790b7]
+2023-12-18 11:56:46 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-12-18 11:56:46 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-18 11:56:46 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-18 11:56:46 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Started DfsApplication in 5.417 seconds (JVM running for 5.884)
+2023-12-18 11:57:51 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:57:51 [Thread-5] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-212]
+2023-12-18 11:57:51 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-12-18 11:57:51 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-12-18 11:57:52 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Starting DfsApplication using Java 17.0.9 on TD-CYBYBY3 with PID 19120 (C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes started by rh255046 in C:\Users\rh255046\OneDrive - Teradata\Documents\dfs)
+2023-12-18 11:57:52 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-18 11:57:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-18 11:57:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2023-12-18 11:57:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-18 11:57:52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-18 11:57:52 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-18 11:57:52 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-12-18 11:57:52 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-18 11:57:52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 219 ms
+2023-12-18 11:57:52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2023-12-18 11:57:52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2023-12-18 11:57:52 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:e5c7ac77-320d-4da9-bd15-322fa72816f2'
+2023-12-18 11:57:52 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-18 11:57:52 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-18 11:57:52 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-18 11:57:52 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 11:57:52 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-18 11:57:52 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 8e0fc3a9-367d-4eb4-8285-8246a5904391
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-18 11:57:52 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6b8f569b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74aff758, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f69db0e, org.springframework.security.web.header.HeaderWriterFilter@34736c96, org.springframework.web.filter.CorsFilter@20ed4b44, org.springframework.security.web.authentication.logout.LogoutFilter@1d975606, com.bsktpay.dfs.config.ApiSecurityConfig$ApiKeyFilter@706e5e13, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e6be634, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@515332b3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6144e50b, org.springframework.security.web.session.SessionManagementFilter@3bcedef0, org.springframework.security.web.access.ExceptionTranslationFilter@598d17c0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4cc39218]
+2023-12-18 11:57:52 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-12-18 11:57:52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-18 11:57:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-18 11:57:52 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Started DfsApplication in 0.578 seconds (JVM running for 72.075)
+2023-12-18 11:57:52 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-12-18 11:57:57 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-18 11:57:57 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-12-18 11:57:57 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-12-18 11:57:59 [http-nio-8080-exec-3] INFO  c.b.dfs.controller.DfsController - DFS : Content retrieved successfully
+2023-12-18 12:47:20 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Starting DfsApplication using Java 17.0.9 on TD-CYBYBY3 with PID 25068 (C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes started by rh255046 in C:\Users\rh255046\OneDrive - Teradata\Documents\dfs)
+2023-12-18 12:47:20 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-18 12:47:20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-18 12:47:20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-18 12:47:22 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-18 12:47:22 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 129 ms. Found 1 JPA repository interfaces.
+2023-12-18 12:47:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-18 12:47:25 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:47:25 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-18 12:47:25 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-12-18 12:47:25 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-18 12:47:25 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5625 ms
+2023-12-18 12:47:25 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-12-18 12:47:26 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-12-18 12:47:26 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:896968b3-27ad-4be0-9454-cd0d40c81c43'
+2023-12-18 12:47:29 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-18 12:47:29 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-18 12:47:30 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-18 12:47:30 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-18 12:47:31 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-18 12:47:31 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 12:47:32 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-18 12:47:34 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 7bc30c5a-9197-4896-8660-beb1e644e4ff
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-18 12:47:35 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@143969bd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e65e2fa, org.springframework.security.web.context.SecurityContextPersistenceFilter@523889ab, org.springframework.security.web.header.HeaderWriterFilter@447272bd, org.springframework.web.filter.CorsFilter@4679f87, org.springframework.security.web.authentication.logout.LogoutFilter@6a6e3ff5, com.bsktpay.dfs.config.ApiSecurityConfig$ApiKeyFilter@5e89020a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@df3cd4c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25496868, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@122ece7, org.springframework.security.web.session.SessionManagementFilter@4da4832e, org.springframework.security.web.access.ExceptionTranslationFilter@671aff1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6fb607f6]
+2023-12-18 12:47:35 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-12-18 12:47:36 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-12-18 12:47:36 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:47:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-18 12:47:36 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2023-12-18 12:47:36 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-12-18 12:47:36 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+2023-12-18 12:47:36 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 12:47:37 [restartedMain] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-212]
+2023-12-18 12:47:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-12-18 12:47:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-12-18 12:47:37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:47:37 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-12-18 12:47:37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:47:37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:47:37 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-18 12:47:37 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.bsktpay.dfs.DfsApplication.main(DfsApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:112)
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:109)
+	at com.google.common.collect.ComparatorOrdering.compare(ComparatorOrdering.java:37)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1233)
+	at com.google.common.collect.Ordering.sortedCopy(Ordering.java:855)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:57)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:138)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:135)
+	at com.google.common.collect.Iterators$7.transform(Iterators.java:750)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:52)
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:50)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:249)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:209)
+	at com.google.common.collect.FluentIterable.toList(FluentIterable.java:614)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.defaultContextBuilder(DocumentationPluginsBootstrapper.java:111)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.buildContext(DocumentationPluginsBootstrapper.java:96)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:167)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 19 common frames omitted
+2023-12-18 12:47:54 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Starting DfsApplication using Java 17.0.9 on TD-CYBYBY3 with PID 22724 (C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes started by rh255046 in C:\Users\rh255046\OneDrive - Teradata\Documents\dfs)
+2023-12-18 12:47:54 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-18 12:47:54 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-18 12:47:54 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-18 12:47:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-18 12:47:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 135 ms. Found 1 JPA repository interfaces.
+2023-12-18 12:48:00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-18 12:48:00 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:48:00 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-18 12:48:00 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-12-18 12:48:00 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-18 12:48:00 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5803 ms
+2023-12-18 12:48:01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-12-18 12:48:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-12-18 12:48:02 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:1ef8021e-255f-4c9a-a869-ab903f3a8843'
+2023-12-18 12:48:04 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-18 12:48:04 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-18 12:48:05 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-18 12:48:06 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-18 12:48:07 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-18 12:48:07 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 12:48:07 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-18 12:48:10 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 4d93ad98-78e4-485a-a7fb-63535f366ba9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-18 12:48:11 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@ffbe701, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e3d64a9, org.springframework.security.web.context.SecurityContextPersistenceFilter@11d5f390, org.springframework.security.web.header.HeaderWriterFilter@77c6bf09, org.springframework.web.filter.CorsFilter@21a81dc0, org.springframework.security.web.authentication.logout.LogoutFilter@30f6f286, com.bsktpay.dfs.config.ApiSecurityConfig$ApiKeyFilter@74c13854, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@629c1de0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3bddb3f2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24d21a22, org.springframework.security.web.session.SessionManagementFilter@1a466688, org.springframework.security.web.access.ExceptionTranslationFilter@2a6d86bf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10a0dcba]
+2023-12-18 12:48:11 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-12-18 12:48:11 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-12-18 12:48:12 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:48:12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-18 12:48:12 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2023-12-18 12:48:12 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-12-18 12:48:12 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+2023-12-18 12:48:12 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 12:48:12 [restartedMain] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-212]
+2023-12-18 12:48:12 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-12-18 12:48:12 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-12-18 12:48:12 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:48:12 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-12-18 12:48:12 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:48:12 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:48:12 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-18 12:48:12 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.bsktpay.dfs.DfsApplication.main(DfsApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:112)
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:109)
+	at com.google.common.collect.ComparatorOrdering.compare(ComparatorOrdering.java:37)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1233)
+	at com.google.common.collect.Ordering.sortedCopy(Ordering.java:855)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:57)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:138)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:135)
+	at com.google.common.collect.Iterators$7.transform(Iterators.java:750)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:52)
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:50)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:249)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:209)
+	at com.google.common.collect.FluentIterable.toList(FluentIterable.java:614)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.defaultContextBuilder(DocumentationPluginsBootstrapper.java:111)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.buildContext(DocumentationPluginsBootstrapper.java:96)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:167)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 19 common frames omitted
+2023-12-18 12:52:18 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Starting DfsApplication using Java 17.0.9 on TD-CYBYBY3 with PID 21860 (C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes started by rh255046 in C:\Users\rh255046\OneDrive - Teradata\Documents\dfs)
+2023-12-18 12:52:18 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-18 12:52:18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-18 12:52:18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-18 12:52:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-18 12:52:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 163 ms. Found 1 JPA repository interfaces.
+2023-12-18 12:52:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-18 12:52:24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:52:24 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-18 12:52:24 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-12-18 12:52:30 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-18 12:52:30 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11672 ms
+2023-12-18 12:52:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-12-18 12:52:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-12-18 12:52:31 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:d3a58920-4f42-4596-8093-6c2729c46115'
+2023-12-18 12:52:33 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-18 12:52:33 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-18 12:52:34 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-18 12:52:34 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-18 12:52:36 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-18 12:52:36 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 12:52:36 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-18 12:52:39 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 2486e856-8b0f-4127-b287-41df5940ce89
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-18 12:52:40 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@37c4f44d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@745d2917, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c54dc2f, org.springframework.security.web.header.HeaderWriterFilter@1b1e3b6d, org.springframework.web.filter.CorsFilter@8c85ebf, org.springframework.security.web.authentication.logout.LogoutFilter@d5be3b6, com.bsktpay.dfs.config.ApiSecurityConfig$ApiKeyFilter@173718d9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27523a11, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@450d0c7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c1f0ee, org.springframework.security.web.session.SessionManagementFilter@6c79c400, org.springframework.security.web.access.ExceptionTranslationFilter@1ddcf3f2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ebbb859]
+2023-12-18 12:52:40 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-12-18 12:52:41 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:52:41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-18 12:52:41 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+2023-12-18 12:52:41 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 12:52:42 [restartedMain] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-212]
+2023-12-18 12:52:42 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-12-18 12:52:42 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-12-18 12:52:42 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:52:42 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-12-18 12:52:42 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:52:42 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:52:42 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-18 12:52:42 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.bsktpay.dfs.DfsApplication.main(DfsApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 19 common frames omitted
+2023-12-18 12:54:53 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Starting DfsApplication using Java 17.0.9 on TD-CYBYBY3 with PID 18876 (C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes started by rh255046 in C:\Users\rh255046\OneDrive - Teradata\Documents\dfs)
+2023-12-18 12:54:53 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-18 12:54:53 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-18 12:54:53 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-18 12:54:56 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-18 12:54:56 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 156 ms. Found 1 JPA repository interfaces.
+2023-12-18 12:54:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-18 12:54:59 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:54:59 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-18 12:54:59 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-12-18 12:54:59 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-18 12:54:59 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5970 ms
+2023-12-18 12:54:59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-12-18 12:55:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-12-18 12:55:00 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:296ff58a-ec19-4f64-97e9-b08b720d019e'
+2023-12-18 12:55:02 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-18 12:55:02 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-18 12:55:03 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-18 12:55:03 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-18 12:55:04 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-18 12:55:05 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 12:55:05 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-18 12:55:07 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c7c4aaf4-f41a-455e-a138-a35d82bbe265
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-18 12:55:08 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3607d1ab, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75b2161, org.springframework.security.web.context.SecurityContextPersistenceFilter@99e043a, org.springframework.security.web.header.HeaderWriterFilter@376950a5, org.springframework.web.filter.CorsFilter@2c28713b, org.springframework.security.web.authentication.logout.LogoutFilter@28ed9457, com.bsktpay.dfs.config.ApiSecurityConfig$ApiKeyFilter@827e9eb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ee15c4a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c17355, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25ebcd, org.springframework.security.web.session.SessionManagementFilter@6a294241, org.springframework.security.web.access.ExceptionTranslationFilter@6017079e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@664b97a5]
+2023-12-18 12:55:09 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-12-18 12:55:09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:55:09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-18 12:55:09 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+2023-12-18 12:55:09 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 12:55:09 [restartedMain] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-212]
+2023-12-18 12:55:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-12-18 12:55:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-12-18 12:55:09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:55:09 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-12-18 12:55:09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:55:09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-12-18 12:55:09 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-18 12:55:10 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.bsktpay.dfs.DfsApplication.main(DfsApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 19 common frames omitted
+2023-12-18 13:02:46 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Starting DfsApplication using Java 17.0.9 on TD-CYBYBY3 with PID 23236 (C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes started by rh255046 in C:\Users\rh255046\OneDrive - Teradata\Documents\dfs)
+2023-12-18 13:02:46 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-18 13:02:46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-18 13:02:46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-18 13:02:48 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:193)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:153)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:129)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:343)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.bsktpay.dfs.DfsApplication.main(DfsApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.bsktpay.dfs.config.SwaggerConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@64662ae7]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:361)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:418)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:250)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:243)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:233)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:181)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:156)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Docket
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467)
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Docket
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 42 common frames omitted
+2023-12-18 13:02:48 [restartedMain] WARN  o.s.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.bsktpay.dfs.config.SwaggerConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@64662ae7]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:361)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:418)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:667)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1300)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:867)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:855)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:842)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.bsktpay.dfs.DfsApplication.main(DfsApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: Docket
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Docket
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 30 common frames omitted
+2023-12-18 13:06:28 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Starting DfsApplication using Java 17.0.9 on TD-CYBYBY3 with PID 25116 (C:\Users\rh255046\OneDrive - Teradata\Documents\dfs\target\classes started by rh255046 in C:\Users\rh255046\OneDrive - Teradata\Documents\dfs)
+2023-12-18 13:06:28 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-18 13:06:29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-18 13:06:29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-18 13:06:31 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-18 13:06:31 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 125 ms. Found 1 JPA repository interfaces.
+2023-12-18 13:06:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-18 13:06:34 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-18 13:06:34 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-18 13:06:34 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-12-18 13:06:34 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-18 13:06:34 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5440 ms
+2023-12-18 13:06:34 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-12-18 13:06:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-12-18 13:06:36 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:7829bca7-4711-4f85-8520-fa87afded8f6'
+2023-12-18 13:06:38 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-18 13:06:38 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-18 13:06:39 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-18 13:06:39 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-18 13:06:40 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-18 13:06:40 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-18 13:06:41 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-18 13:06:42 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: d11d57a7-a055-4ff9-adbb-985efce56a2a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-18 13:06:43 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@76695129, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60ef5fed, org.springframework.security.web.context.SecurityContextPersistenceFilter@5f5ca83b, org.springframework.security.web.header.HeaderWriterFilter@7ca9ff08, org.springframework.web.filter.CorsFilter@2112794f, org.springframework.security.web.authentication.logout.LogoutFilter@1d574f93, com.bsktpay.dfs.config.ApiSecurityConfig$ApiKeyFilter@5579ee2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60f5287b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d729838, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@398b6778, org.springframework.security.web.session.SessionManagementFilter@264751a, org.springframework.security.web.access.ExceptionTranslationFilter@aa75f16, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b192381]
+2023-12-18 13:06:47 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-12-18 13:06:47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-18 13:06:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-18 13:06:47 [restartedMain] INFO  com.bsktpay.dfs.DfsApplication - Started DfsApplication in 19.945 seconds (JVM running for 22.145)
+2023-12-18 13:07:03 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-18 13:07:03 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-12-18 13:07:03 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-12-18 13:07:05 [http-nio-8080-exec-10] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 828 ms
